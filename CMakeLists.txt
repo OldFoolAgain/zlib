@@ -48,7 +48,7 @@ if (WIN32)
 		_CRT_NONSTDC_NO_DEPRECATE
 	)
 	
-	target_compile_options( zlib PRIVATE
+	target_compile_options( z PRIVATE
 		/W3
 		/sdl-
 		/wd4244 
